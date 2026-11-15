@@ -1,0 +1,68 @@
+{
+  "portal": {
+    "url": "https://ieee.submission.researchexchange.com/submission/dashboard?siteName=ieee-access",
+    "email": "lowck@tarc.edu.my",
+    "password": ""
+  },
+  "paper": {
+    "title": "Your Paper Title Here",
+    "abstract": "Your paper abstract here...",
+    "manuscriptType": "Regular Paper"
+  },
+  "files": {
+    "manuscriptPdf": "./submission_package/MANUSCRIPT.pdf",
+    "coverLetterPdf": "./submission_package/COVER_LETTER.pdf",
+    "supplementaryFiles": [
+      "./submission_package/HIGHLIGHTS.pdf",
+      "./submission_package/STATEMENTS.pdf"
+    ]
+  },
+  "subjectCategory": {
+    "mode": "preset",
+    "selected": [
+      "Computational and artificial intelligence",
+      "Computers and information processing"
+    ],
+    "alternative": "Communications technology",
+    "randomChooseCount": 0,
+    "availableOptions": [
+      "Computational and artificial intelligence",
+      "Computers and information processing",
+      "Communications technology"
+    ]
+  },
+  "keywords": [
+    "Benchmark evaluation",
+    "Computer vision",
+    "Machine learning"
+  ],
+  "authors": [
+    {
+      "firstName": "Choon Keat",
+      "lastName": "Low",
+      "email": "lowck@tarc.edu.my",
+      "institution": "Tunku Abdul Rahman University of Management and Technology",
+      "country": "Malaysia",
+      "isCorresponding": true
+    }
+  ],
+  "additionalInformation": {
+    "openAccessAcknowledgement": true,
+    "apcFeeAcknowledged": true,
+    "confirmOriginalWork": true,
+    "hasPriorConferenceVersion": false,
+    "priorConferenceDetails": "",
+    "conflictOfInterest": "The authors declare that there is no conflict of interest regarding the publication of this article.",
+    "allAuthorsApproved": true,
+    "dataAvailability": "The data supporting the findings of this study are available within the article or from the corresponding author upon reasonable request.",
+    "aiDisclosure": "The authors confirm that Generative AI and AI-assisted technologies were only used in the writing process to improve readability and language in accordance with IEEE author policies.",
+    "fundingDetails": "This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors."
+  },
+  "options": {
+    "headless": false,
+    "slowMoMs": 300,
+    "dryRun": true,
+    "autoSubmit": false,
+    "screenshotDir": "./screenshots"
+  }
+}

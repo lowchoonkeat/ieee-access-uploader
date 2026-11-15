@@ -1,0 +1,26 @@
+{
+  "name": "ieee-access-uploader",
+  "version": "1.0.0",
+  "description": "Automated submission tool & Antigravity skill for IEEE Access (IEEE Research Exchange / ScholarOne) with CS/IT subject categories, keywords, auto-filled Additional Information questionnaire, and full screenshot audit trails.",
+  "main": "uploader.js",
+  "type": "module",
+  "scripts": {
+    "start": "node uploader.js",
+    "submit": "node uploader.js --config config.json",
+    "test-run": "node uploader.js --dry-run"
+  },
+  "keywords": [
+    "ieee",
+    "ieee-access",
+    "submission",
+    "automation",
+    "playwright",
+    "scholarone",
+    "academic-publishing"
+  ],
+  "author": "Low Choon Keat",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
